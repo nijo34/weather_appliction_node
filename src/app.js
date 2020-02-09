@@ -72,8 +72,8 @@ app.get('/weather',(req,res)=>{
               }
         
             res.send({
-                forecast:forecastdata,
                 Location:Location,
+                forecast:forecastdata,
                 Address:req.query.address
             })
         }) 
